@@ -1,0 +1,10 @@
+[package]
+name = "rust-file-encryption"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"                 # AES encryption
+rsa = "0.9"                 # RSA key handling
+rand = "0.8"                # Random number generation
+base64 = "0.21"             # Encoding keys and ciphertext
